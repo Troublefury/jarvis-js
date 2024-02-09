@@ -12,3 +12,44 @@
 .read-the-docs {
   color: #888;
 }
+
+h1 {
+  color: rgb(0, 0, 0);
+  margin: 20px 10px 0px;
+  padding: 0px 30px 0px 30px;
+  text-align: center;
+}
+
+.title {
+  position: absolute;
+  top: 0px;;
+  background: rgb(251,231,63);
+  background: radial-gradient(circle, rgba(251,231,63,1) 0%, rgba(252,70,146,0.9882003826921394) 100%);
+}
+
+input {
+  display: inline-block;
+  width: 6em;
+  position: relative;
+  top: -3em;
+}
+
+label {
+  display: inline-block;
+  width: 6em;
+  margin-right: .5em;
+  padding-top: 1.5em;
+}
+
+form {
+  position: relative;
+  width: 800px;
+  margin: 100px auto;
+  background: rgba(26, 23, 23, 0.3);
+  padding: 20px 22px;
+  border: 1px solid;
+  border-top-color: rgba(255,255,255,.4);
+  border-left-color: rgba(255,255,255,.4);
+  border-bottom-color: rgba(60,60,60,.4);
+  border-right-color: rgba(60,60,60,.4);
+}

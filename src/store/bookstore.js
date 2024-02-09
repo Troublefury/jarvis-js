@@ -1,7 +1,7 @@
-import create from 'zustand';
+import {create} from 'zustand';
 
 const useBookStore = create(() => ({
-    amount: 40
+    amount: 50
 }));
 
 export { useBookStore };
