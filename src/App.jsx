@@ -18,7 +18,7 @@ function App() {
       
       <BlankScreen />
       <Environment />
-      <toggleDrawer open={drawerOpen} onClose={toggleDrawer} />
+      <ClippedDrawer open={drawerOpen} onClose={toggleDrawer} />
       { /*<Switch>
         <Route path="/" exact component={Home} />
         <Route path="/environment" component={Environment} />
